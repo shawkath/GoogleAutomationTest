@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="52608" started-at="2014-08-05T17:48:31Z" finished-at="2014-08-05T17:49:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="52608" started-at="2014-08-05T17:48:31Z" finished-at="2014-08-05T17:49:24Z">
+      <class name="Google">
+        <test-method status="PASS" signature="base()[pri:0, instance:Google@15f2cff0]" name="base" is-config="true" duration-ms="5286" started-at="2014-08-05T23:18:31Z" finished-at="2014-08-05T23:18:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- base -->
+        <test-method status="PASS" signature="GoogleHome()[pri:0, instance:Google@15f2cff0]" name="GoogleHome" duration-ms="13552" started-at="2014-08-05T23:18:36Z" finished-at="2014-08-05T23:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleHome -->
+        <test-method status="PASS" signature="writereport()[pri:0, instance:Google@15f2cff0]" name="writereport" is-config="true" duration-ms="208" started-at="2014-08-05T23:18:50Z" finished-at="2014-08-05T23:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writereport -->
+        <test-method status="PASS" signature="base()[pri:0, instance:Google@15f2cff0]" name="base" is-config="true" duration-ms="3862" started-at="2014-08-05T23:18:50Z" finished-at="2014-08-05T23:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- base -->
+        <test-method status="PASS" signature="googleHomeTest()[pri:0, instance:Google@15f2cff0]" name="googleHomeTest" duration-ms="10052" started-at="2014-08-05T23:18:54Z" finished-at="2014-08-05T23:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleHomeTest -->
+        <test-method status="PASS" signature="writereport()[pri:0, instance:Google@15f2cff0]" name="writereport" is-config="true" duration-ms="185" started-at="2014-08-05T23:19:04Z" finished-at="2014-08-05T23:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writereport -->
+        <test-method status="PASS" signature="base()[pri:0, instance:Google@15f2cff0]" name="base" is-config="true" duration-ms="8335" started-at="2014-08-05T23:19:04Z" finished-at="2014-08-05T23:19:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- base -->
+        <test-method status="FAIL" signature="googleOfficeTest()[pri:0, instance:Google@15f2cff0]" name="googleOfficeTest" duration-ms="10851" started-at="2014-08-05T23:19:13Z" finished-at="2014-08-05T23:19:23Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at org.testng.Assert.assertEquals(Assert.java:296)
+	at Google.googleOfficeTest(Google.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleOfficeTest -->
+        <test-method status="PASS" signature="writereport()[pri:0, instance:Google@15f2cff0]" name="writereport" is-config="true" duration-ms="250" started-at="2014-08-05T23:19:23Z" finished-at="2014-08-05T23:19:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writereport -->
+      </class> <!-- Google -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

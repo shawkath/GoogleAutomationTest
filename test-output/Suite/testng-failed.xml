@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.imaginea.jenkins.plugins.testinprogress.testng.TestNGProgressRunListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="Google">
+        <methods>
+          <include name="base"/>
+          <include name="writereport"/>
+          <include name="googleOfficeTest"/>
+        </methods>
+      </class> <!-- Google -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

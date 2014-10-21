@@ -22,6 +22,7 @@ public class Google {
 	public void GoogleHome() throws Exception{
 		try{
 		
+		// Navigating to google Home Page
 		driver.get("https://www.google.com");
 		
 		driver.findElement(By.id("gbqfq")).clear();

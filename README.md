@@ -7,3 +7,5 @@ Selenium Automation Sample Project
   What will you see in action: 
   
   Navigate to google.com and search for the keyword 'selenium' and select the first result. 
+  
+  Updated as on Feb 11 2016

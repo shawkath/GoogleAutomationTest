@@ -27,7 +27,7 @@ public class Google {
 		
 		// Clearing the text from the search bar
 		driver.findElement(By.id("gbqfq")).clear();
-		driver.findElement(By.id("gbqfq")).sendKeys("Testing");
+		driver.findElement(By.id("gbqfq")).sendKeys("big data");
 		driver.findElement(By.id("gbqfq")).sendKeys(Keys.ENTER);
 		driver.findElement(By.id("ires")).findElement(By.id("rso")).findElements(By.tagName("li")).get(3)
 			.findElement(By.tagName("div")).findElement(By.tagName("h3")).findElement(By.tagName("a")).click();

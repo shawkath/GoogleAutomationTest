@@ -84,7 +84,7 @@
 			<url>http://repo.jenkins-ci.org/public/</url>
 		</repository>
 	</repositories>
-
+<!-- end of repositories -->
 </project>
 
 

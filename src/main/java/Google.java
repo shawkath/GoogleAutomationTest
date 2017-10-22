@@ -25,6 +25,7 @@ public class Google {
 		// Navigating to google Home Page
 		driver.get("https://www.google.com");
 		
+		// Clearing the text from the search bar
 		driver.findElement(By.id("gbqfq")).clear();
 		driver.findElement(By.id("gbqfq")).sendKeys("Testing");
 		driver.findElement(By.id("gbqfq")).sendKeys(Keys.ENTER);
@@ -43,6 +44,7 @@ public class Google {
 
 		try {
 			driver.get("https://www.google.com");
+			//Waiting for the Thread - to avoid timeout of the test scripts. 
 			Thread.sleep(5000);
 			boolean pageTitle = driver.getPageSource().contains("Google");
 			Assert.assertEquals(pageTitle, true);
@@ -57,8 +59,10 @@ public class Google {
 	void googleOfficeTest(){
 	
 	try {
+		//Navigating to google.com
 		driver.get("https://www.google.com");
 		Thread.sleep(5000);
+		//Entering the keyword on to the search text box
 		boolean pageTitle = driver.getPageSource().contains("Doodle");
 		Assert.assertEquals(pageTitle, true);		
 		System.out.println("The Test googleOfficeTest  is completed");
